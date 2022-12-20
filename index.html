@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="images/resumeIcon.ico" type="image/x-icon">
+    <script>
+        function displayP() {
+        var x = document.getElementById("projectcontent");
+        if (x.style.display === "none") {
+             x.style.display = "block";
+            } 
+        else {
+        x.style.display = "none";
+        }
+    }
+        function displayC() {
+        var x = document.getElementById("Certificatecontent");
+        if (x.style.display === "none") {
+             x.style.display = "block";
+            } 
+        else {
+        x.style.display = "none";
+        }
+    }
+</script>
+</head>
+<body>
+    <div id="resume">
+        <div id="top">
+            
+            <div id="topmid">
+                <img src="images/PageIcon.png" alt="Hi! Piyush this side">
+            </div>
+            <div id="topright">
+                <h1>Piyush Kachhwal</h1>
+               <h2>Aspiring Frontend Developer</h2>
+               <p>Age: 22</p>
+               
+                </div>
+            <div id="topleft">
+                <a href="https://www.linkedin.com/in/piyushkachhwal" title="Click here to see LinkedIn Profile"><button style="background-color: rgba(25, 122, 219, 0.74);color: aliceblue;"  ><img src="images/LinkedInLogo.ico" alt="LinkedIn" ><b> LinkedIn</b></button></a>
+                <br>
+                <a href="https://github.com/PiyushK102" title="Click here to see GitHub Profile"><button style="background-color: rgba(0, 0, 0); color: aliceblue;"><img src="images/GithubLogo.ico" alt="GitHub" > <b> Github</b></button></a>
+                <br>
+                <a href="mailto:piyushkachhwal1812@gmail.com"  title="Click here to Mail"><button style="background-color: rgba(255, 12, 4, 0.77);color: white;"><img src="images/email.ico" alt="Email" ><b>Email</b></button></a>
+                <br>
+                <a href="https://piyushk102.github.io/WebPortfolio/Cv.html"  title="Redirect to website"><button style="background-color: rgb(74, 154, 0);color: rgb(255, 255, 255);"><img src="images/favicon.jpg" alt="website" ><b>Website</b></button></a>
+            
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="bottomleft">
+                <div id="projecttab">
+                    
+                    <a onclick="displayP()"><img src="images/images.jpg" alt="Projects"><h1 style="color:aliceblue;">Projects</h1></a>
+                    <div id="projectcontent">
+                        <ul>
+                        <li>
+                            <h3>  Digital Clock</h3>
+                            <p>  Digital clock using 16*2 LCD and TIVA C tm4c123gh6pm Microcontroller
+                            </p>
+                            <iframe id="projectVideo"  src="https://www.youtube-nocookie.com/embed/gTotFGuf454?modestbranding=1&;mute=1&;loop=1&;showinfo=0&rel=0&uc=0" title="Video player" frameborder="0" allowfullscreen></iframe>
+                            
+                        </li>
+                        <li>
+                            <h3> IoT based Water Management System</h3>
+                            <p>An Internet of things project which have different water sensors like TDS sensor, water flow sensor, water pH sensor, water level Indicator to collect data and send it to Matlab's ThingSpeak IoT cloud
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Suraksha Ghera</h3>
+                            <p>A physical distance maintaining alarm device for COVID-19 which gives warning sound when a person is closer than 1 meter from another person Project Link: https://github.com/PiyushK102/Suraksha-Ghera
+                            </p>
+                        </li>
+                        <li>
+                        <h3> Home Automation </h3>
+                            <p> Home Automation using Bluetooth module HC-05, Relay Module and Arduino UNO Microcontroller Project Link: https://github.com/PiyushK102/Home-Automation- using-Bluetooth-and-Arduino
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Bluetooth Controlled Car </h3>
+                                <p> BT controlled Car using Bluetooth module HC-05 and Arduino UNO Microcontroller 
+                                </p>
+                                <iframe id="projectVideo" src="https://www.youtube-nocookie.com/embed/IIaylzq0C_M?modestbranding=1&;mute=1&;loop=1&;showinfo=0&rel=0&uc=0" title="Video player" frameborder="0" allowfullscreen></iframe>
+        
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="bottomright">
+                <div id="certificatetab">
+                    
+                    <a onclick="displayC()"><img src="images/certificate.jpg" alt="Certificates"><h1 style="color:aliceblue;">Certificates</h1></a>
+                    <div id="Certificatecontent">
+                        <ul>
+                            <li>
+                                <embed src="https://drive.google.com/file/d/1l-xHcKtPOiNUk1Vj2qVAaf-Y6iU_rtWw/preview" type="application/pdf"  />
+                                <p>  Certificate of completion of Highway To Highradius Internship Program from 28th January 2022 to 13th April 2022.
+                                </p>
+                            </li>
+                            <li>
+                                <embed src="https://drive.google.com/file/d/1-oBQszdKtvicN7swsUo2j-Ql0I5yyJ17/preview" type="application/pdf"  />
+                                <p>  Certificate of Internship in TechieNest Pvt. Ltd. from
+                                    15th July 2021 to 11th August 2021 as a Client Engagement Intern.
+                                </p>
+                            </li>
+                            <li>
+                                <embed src="https://drive.google.com/file/d/1P6h6agOC1rlyKskLZszl-T9qyili8IKK/preview" type="application/pdf"  />
+                                <p> Certificate of Two Weeks Online Internship Program started from 23 July 
+                                    2020 on Embedded System Design organized by EdGate Technologies Pvt Ltd
+                                    Bangalore under Texas Instruments India University Program.</p>
+                            </li>
+                            <li>
+                                <embed src="https://drive.google.com/file/d/17QAo0FZBV4m9MOViDpjKcdZVz7NLpzge/preview" type="application/pdf" />
+                                <p> Certificate of Online training in Embedded Systems & IOT
+                                    in Summer Internship Programme conducted by TechieNest Pvt. Ltd. from
+                                    8th June 2021 to 20th July 2021.
+                                </p>
+                            </li>
+                            <li>
+                                <embed src="https://drive.google.com/file/d/1yUqMK5cXDodfToVW7Hw0SEgZ9VN90xNP/preview" type="application/pdf"  />
+                                <p> Certificate of Merit for bagging 3rd place in the event of ONSPOT Hackathon held during 1st April 2021- 4th April 2021 in the annual fest Aarohan'21 organised by NIT-Durgapur. </p>
+                
+                            </li>
+                            <li>
+                                <embed src="https://drive.google.com/file/d/1V6_1OlIO-l0RAn1X-bM1ChFLYVFeOUfp/preview" type="application/pdf" />
+                                <p> Certificate of Merit for bagging 2nd place in the event of Ignited Minds Ideathon held during 19th March 2021- 21st March 2021 in PREPBYTES O-MEGA FEST organised by Orator Club Lovely Professional University.
+                                </p>
+                            </li>
+                            <li>
+                                <embed src="https://drive.google.com/file/d/0Bw_ldJHOQjmScEFfR2JFT3FMWGdmSUtwQVZrbnA5Wko2azJV/preview?resourceKey=0-BzckwM951x6YfX0GWyMDkA" type="application/pdf" />
+                                <p> Certificate of Participation in workshop on UI/UX design using Figma organised by Microsoft Student Technical Club Lovely Professional University.
+                                </p>
+                            </li>
+                            </ul>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
