@@ -11,6 +11,7 @@
         function display(element) {
             if (document.getElementById(element).style.display == "none") {
                 document.getElementById(element).style.display = "block";
+                
                 } 
             else {
                 document.getElementById(element).style.display = "none";
@@ -51,33 +52,33 @@
                     <hr>
                     <div id="projectcontent" style="display: none;">
                         
-                        <li>
+                        <li id="DC" onclick="display('DCVideo')">
                             <h3>  Digital Clock</h3>
                             <p>  Digital clock using 16*2 LCD and TIVA C tm4c123gh6pm Microcontroller
                             </p>
-                            <iframe id="projectVideo"  src="https://www.youtube-nocookie.com/embed/gTotFGuf454?modestbranding=1&;mute=1&;loop=1&;showinfo=0&rel=0&uc=0" title="Video player" frameborder="0" allowfullscreen></iframe>
+                            <iframe id="DCVideo" style="display: none;" src="https://www.youtube-nocookie.com/embed/gTotFGuf454?modestbranding=1&;mute=1&;loop=1&;showinfo=0&rel=0&uc=0" title="Video player" frameborder="0" allowfullscreen></iframe>
                             
                         </li>
-                        <li>
+                        <li id="WMS">
                             <h3> IoT based Water Management System</h3>
                             <p>An Internet of things project which have different water sensors like TDS sensor, water flow sensor, water pH sensor, water level Indicator to collect data and send it to Matlab's ThingSpeak IoT cloud
                             </p>
                         </li>
-                        <li>
+                        <li id="SG">
                             <h3>Suraksha Ghera</h3>
-                            <p>A physical distance maintaining alarm device for COVID-19 which gives warning sound when a person is closer than 1 meter from another person Project Link: https://github.com/PiyushK102/Suraksha-Ghera
+                            <p>A physical distance maintaining alarm device for COVID-19 which gives warning sound when a person is closer than 1 meter from another person.
                             </p>
                         </li>
-                        <li>
+                        <li id="HA">
                         <h3> Home Automation </h3>
-                            <p> Home Automation using Bluetooth module HC-05, Relay Module and Arduino UNO Microcontroller Project Link: https://github.com/PiyushK102/Home-Automation- using-Bluetooth-and-Arduino
+                            <p> Home Automation using Bluetooth module HC-05, Relay Module and Arduino UNO Microcontroller.
                             </p>
                         </li>
-                        <li>
+                        <li id="BTcar" onclick="display('projectVideo')">
                             <h3>Bluetooth Controlled Car </h3>
                                 <p> BT controlled Car using Bluetooth module HC-05 and Arduino UNO Microcontroller 
                                 </p>
-                                <iframe id="projectVideo" src="https://www.youtube-nocookie.com/embed/IIaylzq0C_M?modestbranding=1&;mute=1&;loop=1&;showinfo=0&rel=0&uc=0" title="Video player" frameborder="0" allowfullscreen></iframe>
+                                <iframe id="projectVideo" style="display: none;" src="https://www.youtube-nocookie.com/embed/IIaylzq0C_M?modestbranding=1&;mute=1&;loop=1&;showinfo=0&rel=0&uc=0" title="Video player" frameborder="0" allowfullscreen></iframe>
         
                         </li>
                         
@@ -89,7 +90,7 @@
             <div id="bottomright">
                 <div id="certificatetab">
                     
-                    <div id="certificate" onclick="display('Certificatecontent')"><img src="images/certificate.jpg" alt="Certificates"><h1 style="color:aliceblue;">Certificates</h1></div>
+                    <div id="certificate" onclick="display('Certificatecontent')"><img src="images/Internship.PNG" alt="Certificates"><h1 style="color:aliceblue;">Internships / Trainings</h1></div>
                     <hr>
                     <div id="Certificatecontent" style="display: none;">
                         
@@ -117,6 +118,21 @@
                                     8th June 2021 to 20th July 2021.
                                 </p>
                             </li>
+                            
+                            <li>
+                                <embed src="documents/MSTCUI_UX Design.png"/>
+                                <p> Certificate of Participation in workshop on UI/UX design using Figma organised by Microsoft Student Technical Club Lovely Professional University.
+                                </p>
+                            </li>
+                            
+                    </div>
+                    <hr>
+                </div>
+                <div id="achievementstab">
+                    
+                    <div id="achievement" onclick="display('achievementcontent')"><img src="images/achievements.jpg" alt="Certificates"><h1 style="color:aliceblue;">Achievements</h1></div>
+                    <hr>
+                    <div id="achievementcontent" style="display: none;">
                             <li>
                                 <embed src="documents/Nit durgapur.jpg"  />
                                 <p> Certificate of Merit for bagging 3rd place in the event of ONSPOT Hackathon held during 1st April 2021- 4th April 2021 in the annual fest Aarohan'21 organised by NIT-Durgapur. </p>
@@ -127,11 +143,7 @@
                                 <p> Certificate of Merit for bagging 2nd place in the event of Ignited Minds Ideathon held during 19th March 2021- 21st March 2021 in PREPBYTES O-MEGA FEST organised by Orator Club Lovely Professional University.
                                 </p>
                             </li>
-                            <li>
-                                <embed src="documents/MSTCUI_UX Design.png"/>
-                                <p> Certificate of Participation in workshop on UI/UX design using Figma organised by Microsoft Student Technical Club Lovely Professional University.
-                                </p>
-                            </li>
+                            
                             
                     </div>
                     <hr>
