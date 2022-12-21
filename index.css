@@ -96,6 +96,8 @@ li{
     padding: 1%;
     background-color: rgb(60, 151, 255);
     border-right:2px solid blue;
+    border-left:2px solid blue;
+    border-top:2px solid blue;
     align-items: center;
     align-content: center;
 }
