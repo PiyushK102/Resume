@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="images/resumeIcon.ico" type="image/x-icon">
     <script>
-        function displayP() {
-        var x = document.getElementById("projectcontent");
+        function display(element) {
+        var x = document.getElementById("element");
         if (x.style.display === "none") {
              x.style.display = "block";
             } 
@@ -17,15 +17,7 @@
         x.style.display = "none";
         }
     }
-        function displayC() {
-        var x = document.getElementById("Certificatecontent");
-        if (x.style.display === "none") {
-             x.style.display = "block";
-            } 
-        else {
-        x.style.display = "none";
-        }
-    }
+        
 </script>
 </head>
 <body>
@@ -56,7 +48,7 @@
             <div id="bottomleft">
                 <div id="projecttab">
                     
-                    <a onclick="displayP()"><img src="images/images.jpg" alt="Projects"><h1 style="color:aliceblue;">Projects</h1></a>
+                    <a onclick="display(projectcontent)"><img src="images/images.jpg" alt="Projects"><h1 style="color:aliceblue;">Projects</h1></a>
                     <div id="projectcontent">
                         <ul>
                         <li>
@@ -96,7 +88,7 @@
             <div id="bottomright">
                 <div id="certificatetab">
                     
-                    <a onclick="displayC()"><img src="images/certificate.jpg" alt="Certificates"><h1 style="color:aliceblue;">Certificates</h1></a>
+                    <a onclick="display(Certificatecontent)"><img src="images/certificate.jpg" alt="Certificates"><h1 style="color:aliceblue;">Certificates</h1></a>
                     <div id="Certificatecontent">
                         <ul>
                             <li>
