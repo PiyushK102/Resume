@@ -20,6 +20,7 @@ li{
     font-size: large;
     height: 50%;
 }
+
 #top{
     display:flex;
     width:98%;
@@ -114,7 +115,7 @@ li{
     display:none;
     color: aliceblue;
 }
-#projectVideo.embed{
+#projectVideo, embed{
     
     border-radius: 1%;
     border:solid 2px red;
