@@ -9,14 +9,13 @@
     <link rel="shortcut icon" href="images/resumeIcon.ico" type="image/x-icon">
     <script>
         function display(element) {
-        var x = document.getElementById(element);
-        if (x.style.display === "none") {
-             x.style.display = "block";
-            } 
-        else {
-        x.style.display = "none";
+            if (document.getElementById(element).style.display == "none") {
+                document.getElementById(element).style.display = "block";
+                } 
+            else {
+                document.getElementById(element).style.display = "none";
+            }
         }
-    }
         
 </script>
 </head>
@@ -50,7 +49,7 @@
                     
                     <a onclick="display('projectcontent')"><img src="images/images.jpg" alt="Projects"><h1 style="color:aliceblue;">Projects</h1></a>
                     <hr>
-                    <div id="projectcontent">
+                    <div id="projectcontent" style="display: none;">
                         <ul>
                         <li>
                             <h3>  Digital Clock</h3>
@@ -92,7 +91,7 @@
                     
                     <a onclick="display('Certificatecontent')"><img src="images/certificate.jpg" alt="Certificates"><h1 style="color:aliceblue;">Certificates</h1></a>
                     <hr>
-                    <div id="Certificatecontent">
+                    <div id="Certificatecontent" style="display: none;">
                         <ul>
                             <li>
                                 <embed src="https://drive.google.com/file/d/1l-xHcKtPOiNUk1Vj2qVAaf-Y6iU_rtWw/preview" type="application/pdf"  />
