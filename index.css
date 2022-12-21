@@ -113,6 +113,10 @@ ul,li{
 }
 #projecttab, #certificatetab{
     text-align: center;
+    
+}
+#projecttab:hover, #certificatetab:hover{
+    cursor:pointer;
 }
 #projectcontent, #Certificatecontent{
     display:none;
