@@ -19,6 +19,7 @@ li{
     list-style-type:none;
     font-size: large;
     height: 100%;
+    margin:0px;
 }
 
 #top{
@@ -108,7 +109,7 @@ li{
 #project img,#certificate img{
     width:100%;
     height:100%;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 #projecttab, #certificatetab{
     text-align: center;
@@ -119,7 +120,7 @@ li{
 }
 #projectVideo, embed{
     
-    border-radius: 1%;
+    border-radius: 10px;
     border:solid 2px red;
     width:100%;
     height:100%;
