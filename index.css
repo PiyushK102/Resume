@@ -115,7 +115,7 @@ ul,li{
     text-align: center;
     
 }
-#projecttab:hover, #certificatetab:hover{
+#project:hover, #certificate:hover{
     cursor:pointer;
 }
 #projectcontent, #Certificatecontent{
