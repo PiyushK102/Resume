@@ -1,4 +1,4 @@
-##resume{
+#resume{
     width:100%;
     height:auto;
     display: flex;
@@ -18,7 +18,7 @@ h3{
 li{
     list-style-type:none;
     font-size: 16px;
-    height: 100%;
+    height: 80%;
     margin:2px;
     border-radius: 10px;
     border: 2px solid rgb(0, 41, 129);
@@ -139,13 +139,21 @@ li{
     display:none;
     color: aliceblue;
 }
-#projectVideo ,#DCVideo, embed{
+#projectVideo ,#DCVideo{
     align-self: center;
     border-radius: 10px;
     margin:0.75%;
     border:solid 2px red;
     width:98%;
-    height:40%;
+    height:33vw;
+} 
+embed{
+    align-self: center;
+    border-radius: 10px;
+    margin:0.75%;
+    border:solid 2px red;
+    width:98%;
+    height:100%;
 }
 @media screen and (max-width:770px) {
     body{
@@ -156,12 +164,4 @@ li{
     }
     
 }
-@media screen and (max-width:850px) and (min-width:770px) {
-    body{
-        font-size: 10px;
-    }
-    #topleft button{
-        font-size: 10px;
-    }
-    
-}
+
