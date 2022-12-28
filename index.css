@@ -120,7 +120,7 @@ li{
     align-items: center;
     align-content: center;
 }
-#site,#linkedinpreview,#Githubpreview{
+/* #site,#linkedinpreview,#Githubpreview{
     display:none;
     width: 20vw;
     height: fit-content;
@@ -129,7 +129,7 @@ li{
 }
 #WebsiteB:hover + #site,#linkedinB:hover + #linkedinpreview,#GithubB:hover + #Githubpreview{
     display:block;
-}
+} */
 #project,#certificate,#achievement,#Edu{
     width:100%;
     height:100%;
