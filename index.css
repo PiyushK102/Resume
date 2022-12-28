@@ -128,7 +128,7 @@ li{
     cursor:pointer;
 }
 #WebsiteB:hover + #site,#linkedinB:hover + #linkedinpreview,#GithubB:hover + #Githubpreview{
-    display:inline-block;
+    display:block;
 }
 #project,#certificate,#achievement,#Edu{
     width:100%;
