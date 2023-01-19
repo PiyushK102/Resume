@@ -160,7 +160,7 @@ li{
 }
 #projectcontent, #Certificatecontent, #achievementcontent,#EduContent{
     display:none;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 #projectVideo ,#DCVideo{
