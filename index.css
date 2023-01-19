@@ -70,8 +70,7 @@ li{
     height:100%;
     text-align: center;
     color: aliceblue;
-    font-feature-settings: "c2sc";
-    
+    font-size: 14px;
     border-right:2px solid blue;
     border-left:2px solid blue;
 }
