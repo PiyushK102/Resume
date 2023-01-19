@@ -123,6 +123,12 @@ li{
     align-items: center;
     align-content: center;
 }
+#bottomright{
+border-radius: 0px 0px 20px 0px ;
+}
+#bottomleft{
+    border-radius: 0px 0px 0px 20px ;
+}
 /* #site,#linkedinpreview,#Githubpreview{
     display:none;
     width: 20vw;
