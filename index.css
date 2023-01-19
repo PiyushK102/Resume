@@ -145,8 +145,8 @@ li{
     
 }
 #project img,#certificate img, #achievement img,#Edu img{
-    width:30vw;
-    height:30vw;
+    width:20vw;
+    height:15vw;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px rgb(255, 244, 31);
     
