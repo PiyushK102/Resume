@@ -71,6 +71,7 @@ li{
     text-align: center;
     color: aliceblue;
     font-size: 14px;
+    font-weight: bold;
     border-right:2px solid blue;
     border-left:2px solid blue;
 }
