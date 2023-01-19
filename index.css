@@ -139,7 +139,7 @@ li{
     padding:1%;
 }
 #projecttab:hover,#certificatetab:hover,#achievementstab:hover,#Edutab:hover,#topright:hover{
-    background-color: rgba(255, 0, 0, 0.253);
+    background-color: rgba(54, 255, 154, 0.575);
     border:2px solid rgb(0, 0, 0);
     border-radius: 10px;
     
