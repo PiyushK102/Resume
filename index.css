@@ -14,7 +14,7 @@ button:hover{
     cursor: pointer;
 }
 h3{
-    background-color: rgb(0, 41, 129);
+    background-color: rgb(0, 173, 204);
     border-radius:10px;
 }
 
@@ -115,7 +115,7 @@ li{
     width:48%;
     height:80%;
     padding: 1%;
-    background-color: rgb(147, 197, 255);
+    background-color: rgb(231, 242, 255);
     border-right:2px solid blue;
     border-left:2px solid blue;
     border-top:2px solid blue;
