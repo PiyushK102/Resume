@@ -194,5 +194,10 @@ embed{
         width:75%;
         height:40%;
     }
+    #topleft button: hover {
+        font-size: 8px;
+        width:75%;
+        height:40%;
+    }
 
 }
