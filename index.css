@@ -191,6 +191,8 @@ embed{
     }
     #topleft button{
         font-size: 8px;
+        width:75%;
+        height:40%;
     }
-    
+
 }
