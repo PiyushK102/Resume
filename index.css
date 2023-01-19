@@ -187,7 +187,7 @@ embed{
 }
 @media screen and (max-width:1000px) {
     body{
-        font-size: 10px;
+        font-size: 8px;
     }
     #topleft button{
         font-size: 8px;
