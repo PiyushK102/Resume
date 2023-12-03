@@ -33,6 +33,7 @@ li{
 
 #top{
     display:flex;
+    flex-direction: row;
     width:98%;
     margin:1%;
     height:20%;
@@ -46,26 +47,21 @@ li{
 #topmid{
     width:15%;
     height:40%;
-    background-image:linear-gradient(red,orange,yellow,green,blue,indigo,violet) ;
     border-radius: 50%;
     margin: 1%;
     padding: 0.2%;
-    align-items: center;
-    align-content: center;
-    vertical-align: middle;
-
 }
 #topmid img{
     width:100%;
     height: 40%;
     border-radius: 50%;
 }
-#topmid:hover{
+/* #topmid:hover{
     width:40%;
     height: 40%;
     border-radius: 50%;
 
-}
+} */
 #topright{
     width:53%;
     height:100%;
@@ -106,6 +102,7 @@ li{
 }
 #bottom{
     display:flex;
+    flex-direction: row;
     width:98%;
     margin:1%;
     height:80%;
@@ -118,31 +115,36 @@ li{
     padding: 1%;
     background-color: rgb(231, 242, 255);
     border:2px solid blue;
-    
     align-items: center;
     align-content: center;
 }
 #bottomright{
-border-radius: 0px 0px 20px 0px ;
+    border-radius: 0px 0px 20px 0px ;
 }
 #bottomleft{
     border-radius: 0px 0px 0px 20px ;
 }
 /* #site,#linkedinpreview,#Githubpreview{
     display:none;
-    width: 20vw;
+    width: 30vw;
+    height:40vh;
     height: fit-content;
-    transition: display 2s;
+    opacity: 0;
+    transition: ease-in opacity 1s,ease-out opacity 5s;
     cursor:pointer;
+    position:absolute;
 }
- #WebsiteB:hover + #site,#linkedinB:hover + #linkedinpreview,#GithubB:hover + #Githubpreview{
-    display:inline-block;
+ #WebsiteB:hover + #site,#linkedinB:hover  #linkedinpreview,#GithubB:hover  #Githubpreview{
+    display: block;
+    opacity: 1;
 }  */
 #project,#certificate,#achievement,#Edu{
     width:100%;
     height:100%;
-    margin:1%;
     padding:1%;
+    border-radius: 15px;
+    margin:1%;
+    
 }
 #projecttab:hover,#certificatetab:hover,#achievementstab:hover,#Edutab:hover,#topright:hover{
     background-color: rgba(54, 255, 154, 0.575);
@@ -159,6 +161,11 @@ border-radius: 0px 0px 20px 0px ;
 }
 #projecttab, #certificatetab, #achievementstab,#Edutab{
     text-align: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    overflow: hidden;
+    margin:0 0 1% 0;
+
     
 }
 #project:hover, #certificate:hover,#achievement:hover,#Edu:hover{
@@ -185,17 +192,88 @@ border-radius: 0px 0px 20px 0px ;
     width:98%;
     height:100%;
 }
+hr{
+    background-color: black;
+    height:2px;
+}
+@media screen and (max-width:600px){
+    #top{
+        display:flex;
+        width:97.5%;
+        flex-direction:column;
+        border-radius: 15px;
+        
+    }
+    #topmid{
+        width:90%;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        
+
+    }
+    #topmid img{
+        width:60%;
+        height:auto;
+        margin:1% 20% 1% 20%;
+        background: none;
+        align-self: center;
+        justify-self: center;
+        box-shadow: 0 0 1px 1px red,0 0 2px 2px yellow,0 0 4px 4px blue;
+
+    }
+    #topleft{
+        width:90%;
+        margin:1.5%;
+       
+    }
+    #topright{
+        width:90%;
+        border-top: dotted 10px blue;
+        border-bottom: dotted 10px blue;
+        border-right:none;
+        border-left:none;
+        margin:1%;
+    }
+    #bottom{
+        display:flex;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: aquamarine;
+    }
+    #bottomright{
+        width:97%;
+        background-color: transparent;
+        border: none;
+    }
+    #bottomleft{
+        width:97%;
+        border: none;
+        background-color: transparent;
+    }
+    #site,#linkedinpreview,#Githubpreview{
+        /* display:none; */
+        width: 70vw;
+        height:90vh;
+        height: fit-content;
+        transition: all 2s;
+        cursor:pointer;
+        position:absolute;
+    }
+}
 @media screen and (max-width:1000px) {
     body{
-        font-size: 8px;
+        font-size: 12px;
     }
     #topleft button{
-        font-size: 7px;
+        font-size: 12px;
         width:75%;
         height:40%;
     }
-    #topleft button: hover {
-        font-size: 7px;
+    #topleft button:hover {
+        font-size: 12px;
         width:75%;
         height:40%;
     }
