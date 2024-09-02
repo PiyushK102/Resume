@@ -271,13 +271,11 @@ hr{
     }
     #topleft button{
         font-size: 12px;
-        width:75%;
-        height:40%;
+        width:90%;
+        height:90%;
     }
     #topleft button:hover {
-        font-size: 12px;
-        width:75%;
-        height:40%;
+        font-size: 14px;
     }
     #h3{
          font-size:8px;
