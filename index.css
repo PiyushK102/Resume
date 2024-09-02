@@ -81,14 +81,15 @@ li{
     grid-template-columns: 50% 50%;
 }
 #topleft button{
-    width:100%;
-    height:100%;
+    width:85%;
+    height:90%;
     border-radius: 30px;
     border-color: azure;
     margin:1%;
     font-size: medium;
     padding: 1%;
     box-shadow: 5px 3px 3px rgb(0, 58, 205);
+    align-content: space-evenly;
 }
 #topleft button:hover{
     transform:translateY(3px);
