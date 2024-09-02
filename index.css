@@ -77,6 +77,8 @@ li{
     height:100%;
     vertical-align: middle;
     text-align: center;
+    display: grid;
+    grid-row-start: auto;
 }
 #topleft button{
     width:25%;
